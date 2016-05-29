@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="apk" name="android-bluetooth-remote-control">
+    <output-path>$PROJECT_DIR$/classes/artifacts/android_bluetooth_remote_control</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="keyStoreUrl" value="file://" />
+        <option name="proGuardCfgFiles">
+          <list>
+            <option value="file://%MODULE_SDK_HOME%/tools/proguard/proguard-android.txt" />
+          </list>
+        </option>
+      </options>
+    </properties>
+    <root id="archive" name="android-bluetooth-remote-control.apk">
+      <element id="android-final-package" facet="android-bluetooth-remote-control/android/Android" />
+    </root>
+  </artifact>
+</component>
