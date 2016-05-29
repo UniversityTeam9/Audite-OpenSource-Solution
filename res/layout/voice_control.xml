@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+>
+
+    <com.audite.activities.LogView
+        android:id="@+id/tvData"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+        android:background="@android:color/white"
+    />
+
+    <Button
+            android:id="@+id/bSpeak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="speakButtonClicked"
+            style="@android:style/Widget.DeviceDefault.Button"
+            android:text="@string/speak"
+            android:background="#e0e0e0"
+            android:singleLine="false" android:textColor="#272626"/>
+
+</LinearLayout>
